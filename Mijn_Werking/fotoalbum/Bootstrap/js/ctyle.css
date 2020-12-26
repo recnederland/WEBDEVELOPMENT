@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #fecea8;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}
+.container{
+  width: 560px;
+  box-sizing: border-box;
+}
+.ust-kisim{
+  text-align: center;
+  background-color: #e84a5f;
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 30px 30px 0 0;
+}
+.alt-kisim{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #2a363b;
+  box-sizing: border-box;
+  border-radius: 0 0 30px 30px;
+}
+.dortlu-album{
+  width: 540px;
+}
+.fotolar{
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #ddd;
+  float: left;
+}

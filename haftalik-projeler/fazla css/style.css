@@ -1,0 +1,112 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.EnUstmenu {
+  position: sticky;
+  top: 0;
+  background-color: #34626c;
+  height: 5rem;
+  align-items: center;
+  z-index: 3;
+}
+.ustResim {
+  width: 15rem;
+  height: 5.2rem;
+  padding-right: 1rem;
+}
+.solBolum a {
+  /*sağ yazılarla hizlanacak*/
+  padding-right: 10rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration: none;
+  color: #ffffff;
+}
+.solBolum a:hover {
+  color: #839b97;
+}
+.sagBolum a {
+  font-size: 0.8rem;
+  padding-left: 0.8rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sagBolum a:hover {
+  color: #839b97;
+}
+.history {
+  background-color: #16a596;
+}
+.ortaCizgi {
+  height: 1.5px;
+  border-radius: 30%;
+  z-index: 2;
+}
+.yildiz {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #16a596;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  z-index: 2;
+}
+.ortaResim {
+  width: 21rem;
+  height: 20rem;
+  border-radius: 100%;
+}
+.h1h1 {
+  margin-top: 5rem;
+  font-weight: 700;
+}
+.h4h4 {
+  font-size: 1.2rem;
+  padding-left: 10rem;
+  padding-right: 1rem;
+  font-weight: 200;
+}
+.h4h5 {
+  font-size: 1.2rem;
+  padding-left: 3rem;
+  padding-right: 10rem;
+  font-weight: 200;
+}
+.stCam {
+  background-color: #16a596;
+  float: none;
+  margin-top: 5rem;
+  margin: auto;
+}
+.comments {
+  background-color: #efd9d1;
+  color: #532e1c;
+  width:auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.comments .yildiz{
+  background-color: #efd9d1;
+}
+.comments img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.comments-padding{
+  padding:5% 12%  ;
+}
+@media(max-width: 767px) {
+  .comments{
+      height: 470px;
+     }
+}
+@media (min-width: 768px) {
+  .comments{
+      height: 470px;
+  }
+}

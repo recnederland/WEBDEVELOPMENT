@@ -1,0 +1,328 @@
+@import url('C:Users/sam s/Desktop/asus html css/WebDevelopment/haftalik-projeler/hafta03/css/background.png');
+body {
+  background-color: #160C6E;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("");
+  position:absolute;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  border: 0vw solid;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69% ), turuncu kisim*/
+/* body.image{
+  z-index: 1;
+}*/
+
+.sol{
+  padding-top: 2.3vw;
+}
+.sol-Orta{
+  padding-top: 6.5vw;
+  padding-right: 2vw;
+}
+.sol-Alt{
+  vertical-align: bottom;
+  padding-bottom: 0.1vw;
+  padding-left: 3vw;
+  height: 15vw;
+}
+.gear-sol{
+  font-size: 1.9vw;
+  font-weight: bold;
+  padding-left: 3.0vw;
+  padding-top: 5.2vw;
+}
+.sonuk{
+  font-size: 1.4vw;
+  line-height: 2.1vw;
+  opacity: 0.4;
+  padding-left: 3.0vw;
+}
+.logo{
+  width: 2.4vw;
+  /* padding-top: 2.3rem; */
+  padding-left: 5.3vw;
+  z-index: 2;
+}
+.kutu1{
+  width: 58vw;
+  height: 58vw;
+  background-color: #3F21D0;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  border-radius: 50%;
+  position: absolute;
+  top: -6vw;
+  left: -6.5vw;
+  right: 12vw;
+  align-items: center;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  border: 0rem solid none;
+
+}
+.kutu2{
+  width: 38vw;
+  height: 38vw;
+  background-color: #FF602C;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.4vw;
+  left: 2.9vw;
+  right: 1vw;
+  align-items: center;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  border: 0vw solid none;
+
+}
+.kutu3{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  top: -2.4vw;
+  left: -0.6vw;
+  right: 1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 2.3vw;
+  height: 2.3vw;
+  border-radius: 100%;
+  border: 0.15vw solid white;
+
+  position: relative;
+}
+.kutu4{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1rem;
+  margin: 0.1rem;;
+  top: -4.4rem;
+
+  right: -30vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 100%;
+  border: 0.15vw solid white;
+
+  position: relative;
+}
+.kutu5{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  top: -50.4vw;
+  right: -48vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width:1.5vw;
+  height: 1.5vw;
+  border-radius: 100%;
+  border:0.15vw solid white;
+
+  position: relative;
+}
+.kutu6{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  top: -36.1vw;
+  left: -0.9vw;
+  right: 0.1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width:1.2vw;
+  height: 1.2vw;
+  border-radius: 100%;
+  border:0.15vw solid white;
+
+  position: relative;
+}
+.kutu7{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;;
+  top: -9.4vw;
+  left: 49.9vw;
+  right: 1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 1.7vw;
+  height: 1.7vw;
+  border-radius: 100%;
+  border: 0.15vw solid white;
+
+  position: relative;
+}
+.kutu8{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw ;
+  margin: 0.1vw ;;
+  top: -54.0vw;
+  left: 32.1vw;
+  right: 1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 1.05vw ;
+  height: 1.05vw ;
+  border-radius: 100%;
+  border: 0.15vw  solid white;
+
+  position: relative;
+}
+.kutu9{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;
+  top: -54.4vw;
+  left: 0.9vw;
+  right: 1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 1.8vw;
+  height: 1.8vw;
+  border-radius: 100%;
+  border: 0.15vw  solid white;
+
+  position: relative;
+}
+.kutu10{
+  width: 3vw;
+  height: 3vw;
+  padding: 0.1vw;
+  margin: 0.1vw;
+  top: -21.4vw;
+  left: 25.9vw;
+  right: 1vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 100%;
+  border: 0.15vw solid white;
+
+  position: relative;
+}
+.orta-foto{
+  width: 44vw;
+  height: 44vw;
+  border: 0rem solid;
+   position:relative;
+   top:-0.8rem;
+  left: -0.9rem;
+  right: 5.5rem;
+  z-index: 0;
+  background-position: center;
+  background-attachment: local;
+}
+.sol, .sag{
+  /* width: 24rem; */
+}
+.orta{
+  padding-top: 1rem;
+/*  width: 101rem; */
+}
+.sag-Ust{
+  float: right;
+  padding-right: 0.3rem;
+}
+.alt{
+  height: 2rem;
+}
+
+#footer a{
+  color: #ffffff;
+  padding-left: 2.3rem;
+  /* width: 6rem; */
+  height: 2vw;
+  left: 3.3rem;
+  border: 0px solid;
+}
+.kucuk-yuvarlaklar{
+    z-index: -1;
+    position: absolute;
+}
+
+.aciklama {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 7vw;
+  font-size: 1.6vw;
+  color: #ffffff;
+  z-index: 3;
+}
+​
+.buton {
+  font-size: 1.4vw;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 10vw;
+  margin-top: 25vw;
+  z-index: 3;
+}
+​
+button {
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  z-index: 3;
+}
+​
+.btn {
+  border-radius: 10vw;
+  padding: 15vw;
+  border: none;
+  z-index: 3;
+}
+​
+.aciklama div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  position: relative;
+  top: -61.4vw;
+  left: 25.9vw;
+  right: 1vw;
+  z-index: 5;
+}

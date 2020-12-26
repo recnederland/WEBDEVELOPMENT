@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.ust-kisim{
+  background-color:#e3fdfd;
+}
+.foto-1{
+  width: 80%;
+  border-radius: 30%;
+}
+.tanitim{
+  font-size: 1.5rem;
+}
+.col h2{
+  color: #2d4059;
+  font-weight;bold;
+}
+.yazi{
+  text-align: right;
+}
+.orta-kisim{
+  background-color: #f6f6f6;
+  padding-top: 2rem;
+}
+.ders-programi{
+  width: 75%;
+  height:80px;
+  border:2px;
+  padding: 2px;
+​
+}
+.aa{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.cards{
+  background-color:#112d4e;
+}
+.card-body{
+  background-color:#e3fdfd;
+}
+.card-body h5{
+  font-weight: bold;
+  color:#e84545;
+}
+.slide{
+  width: 70px;
+  height: 70px !important;
+  border-radius: 50%;
+  padding-bottom: 20px;
+
+}
+.yorum{
+  padding: 5% 15%;
+  margin-top: 5px;
+}

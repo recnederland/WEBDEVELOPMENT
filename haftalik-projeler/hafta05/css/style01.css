@@ -1,0 +1,86 @@
+body {
+  position: relative;
+}
+#menu {
+  /* width: auto; */
+  /*border:1vw solid #BD5D40;*/
+  height: 100%;
+  font-size: 1vw;
+  padding-top: 0%;
+  padding-left: 0%;
+  float: left;
+  position: fixed;
+}
+.name{
+  font-size: 8vw;
+}
+.address .visie {
+  font-size: 2vw;
+}
+p{
+  margin-left: 23vw;
+}
+.solMenu{
+  position: relative;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: -0.3;
+  width: 25%;
+  background-color: #BD5D38;
+  height: 100%;
+  overflow: auto;
+
+}
+.title {
+  background:#BD5D38;
+  padding:10px;
+  color:#ffffff;
+  /* border-bottom: 0.2px solid #BD5D38;*/
+  width: auto;
+}
+.title span img {
+  display: inline-block;
+  border-radius: 100%;
+  width: 8vw;
+  height: 8vw;
+  padding-top: 2vw;
+  overflow: auto;
+
+}
+#menu ul li a {
+  display:inline-block;
+  padding:1vw;
+  text-decoration:none;
+  color:#ffffff;
+  border:bottom:0.1px dotted #BD5D38;
+}
+#menu ul li a:hover {
+  background:#ffffff;
+  color:#BD5D38;
+}
+
+.sagBolum{
+  padding-left: 40vw;
+}
+/* Ekran boyutu küçük cihazlar */
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* Ekran boyutu büyük cihazlar */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

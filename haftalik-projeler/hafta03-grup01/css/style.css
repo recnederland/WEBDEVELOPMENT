@@ -1,0 +1,96 @@
+body {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+​
+  font-family: 'Montserrat', sans-serif;
+}
+​
+.logo{
+  width: 4rem;
+  font-weight: 900;
+  margin-left: 276px;
+  margin-top: 30px;
+}
+.search{
+  font-size: 1.1vw;
+  opacity: 0.7;
+  margin-right: 254px;
+  margin-top: 40px;
+}
+.sol-orta-menu{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.sol-Orta{
+display: inline-block;
+margin-top: 150px;
+padding-left: 240px;
+}
+​
+.sonuk{
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.4;
+  line-height: 30px;
+}
+.gear-sol{
+  font-size: 16px;
+  font-weight: 700;
+}
+​
+.gear-sag{
+  font-weight: 900;
+  font-size: 90px;
+  margin-top: 80px;
+  margin-right: 260px;
+}
+.orta-yazi{
+​
+  font-weight:700;
+  font-size: 14px;
+  margin-right: 260px;
+​
+​}
+​
+.btn{
+ font-size: 14px;
+ font-weight: 700;
+ color: #ffffff;
+ border-radius: 100px;
+ border: none;
+ margin-right: 260px;
+ margin-bottom: 20px;
+ padding: 15px 30px;
+ background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+ display: inline-block;
+ position: absolute;
+}
+.fas{
+  padding-left: 5px;
+}
+​
+.alt-logolar{
+  margin-left: 280px;
+  margin-top: 160px;
+}
+#footer a{
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border: 1px;
+}
+.alt-a{
+  padding-left: 15px;
+}
+a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.4;
+  color: #ffffff;
+}
+a{
+  color: #ffffff;
+}
+​
+​

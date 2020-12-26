@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+body {
+  margin : 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  border-left: 10px solid red;
+  border-right: 10px solid red;
+  padding-left: 30px;
+  background-color: #fffff0;
+  font-family: 'Ubuntu', sans-serif, cursive;
+  text-align: left;
+}
+.usticon{
+  position: relative;
+  right: 10px;
+  right: 10px;
+}
+.linkler a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid #06b7d8;
+  border-radius: 5px;
+  background-color: white;
+  color: #06b7d8;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 10px;
+}

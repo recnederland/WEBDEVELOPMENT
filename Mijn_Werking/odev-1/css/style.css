@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@300&display=swap');
+body{
+  /*sayfaya bosluk ekledik sag ve sol */
+        margin:2% 10%;
+      }
+      .profil-resmi{
+        width:150px;
+        height:150px;
+      }
+      .logo{
+        font-family: 'Marck Script', cursive;
+      }
+      .logo:hover{
+        color: #726a95;
+      }
+      /* tag ile de yapabilirdik*/
+
+      /*
+      img {
+        width:150px;
+        height:150px;
+      } */
+      .hakkimda{
+        padding:2%;
+        background-color:#cffffe;
+      }
+      .hakkimda-yazi{
+        padding-left:2rem;
+      }
+      .hobilerim{
+        /*sade 2% seklinde de yapabilirdik */
+        padding: 2% 2%;
+        background-color:#f9f7d9;
+      }
+      .hobilerim-yazi{
+        padding-right:2rem;
+      }
+      .hobi-resmi{
+        width:150px;
+        height:150px;
+      }
+      .bildigim-diller{
+        padding: 2% 2%;
+        background-color:#fce2ce;
+      }
+      .bildigim-diller-yazi{
+        padding-left:2rem;
+      }
+      .bildigim-diller-resmi{
+        width:150px;
+        height:150px;
+      }

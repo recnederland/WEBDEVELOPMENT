@@ -1,0 +1,356 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.EnUstmenu {
+  position: sticky;
+  top: 0;
+  background-color: #34626c;
+  align-items: center;
+  z-index: 3;
+}
+.ustResim {
+  width: 15rem;
+  height: 5.2rem;
+  padding-right: 1rem;
+}
+.ustYazi{
+text-shadow:5px 5px 10px black;
+}
+.solBolum a {
+  padding-right: 10rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.solBolum a:hover {
+  text-shadow:5px 5px 10px black;
+  color: #839b97;
+}
+.sagBolum a {
+  text-shadow:5px 5px 10px black;
+  font-size: 0.8rem;
+  padding-left: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sagBolum a:hover {
+  color: #839b97;
+}
+.history {
+  background-color: #16a596;
+}
+.ortaCizgi {
+  height: 1.5px;
+  border-radius: 30%;
+  z-index: 2;
+}
+.images .fas , .comments .fas{
+  color:#532e1c;
+}
+.golgeYildiz1{
+  text-shadow:5px 5px 10px black;
+}
+.golgeYildiz2{
+  text-shadow:5px 5px 10px #532e1c;
+}
+.yildiz {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #16a596;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  z-index: 2;
+}
+.ortaResim {
+  width: 16rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+.h1h1 {
+  font-weight: 700;
+  text-shadow:5px 5px 10px black;
+}
+.h1h2{
+  padding-top: 5%;
+  font-weight: 700;
+  color: #532e1c;
+  text-shadow:5px 5px 10px #532e1c;
+}
+.h4h4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.h4h5 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.stCam {
+  background-color: #16a596;
+  float: none;
+  margin-top: 5rem;
+  margin: auto;
+}
+.orta-fotolar {
+  width: 56vw;
+  box-sizing: border-box;
+}
+.ust-kisim {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 2.5vw;
+  color: #FFFFFF;
+}
+.images {
+  background-color: #bedcfa
+}
+.images .yildiz {
+  background-color: #bedcfa;
+}
+.altili-album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotolar {
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s ease;
+  box-shadow: 10px 10px grey;
+}
+.fotolar a:hover {
+opacity: 0.3;
+}
+img {
+  width: 18vw;
+  height: 15vw;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 10px;
+}
+.comments {
+  background-color: #efd9d1;
+  color: #532e1c;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.comments .yildiz {
+  background-color: #efd9d1;
+}
+.comments img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.comments-baslik {
+  font-weight: bold;
+  text-shadow:5px 5px 10px #532e1c;
+}
+.comments-padding {
+  padding: 5% 12%;
+}
+.comments-baslik-contact{
+  text-shadow:5px 5px 10px black;
+  font-weight: 700;
+}
+.footer {
+  padding: 5% 0;
+  background-color: #34626c;
+  color: #ffffff;
+}
+.footer h3 {
+  font-weight: 700;
+}
+.footer .social{
+padding: 4px;
+}
+.footer i {
+  padding-top: 18px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  width:60px;
+  height:60px;
+  border: 2px solid #ffffff;
+  border-radius: 75%;
+}
+.footer a:hover{
+  color: #839b97;
+  text-decoration: none
+}
+.footer .fab {
+  border-radius: 50%;
+}
+.footer a {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+.mail {
+  padding-bottom: 10px;
+}
+#footer h3{
+  text-shadow:5px 5px 10px black;
+}
+#contact {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+max-width: 400px;
+width: 100%;
+margin: 0 auto;
+}
+​
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+}
+#contact {
+background: #F9F9F9;
+padding: 25px;
+margin: 100px 0;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#contact h2 {
+display: block;
+font-size: 30px;
+font-weight: 300;
+margin-bottom: 15px;
+}
+.form-control{
+border: none !important;
+margin: 0 0 10px;
+min-width: 100%;
+padding: 0;
+width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+width: 100%;
+border: 1px solid #ccc;
+background: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+}
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+transition: border-color 0.4s ease-in-out;
+​
+}
+#contact textarea {
+height: 78px;
+max-width: 100%;
+resize: none;
+}
+#contact button[type="submit"] {
+cursor: pointer;
+width: 100%;
+border: none;
+background: #79A7A8;
+color: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 15px;
+}
+#contact button[type="submit"]:hover {
+background: #355C7D;
+transition: background-color 0.4s ease-in-out;
+}
+#contact button[type="submit"]:active {
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+#contact input:focus,
+#contact textarea:focus {
+outline: 0;
+border: 1px solid #aaa;
+}
+​
+​
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+​
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+​
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+​
+.form-control{
+    border: none !important;
+    margin: 0 0 5px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+.footer-2{
+  background-color: #214252;
+  color:#ffffff;
+  padding: 20px 0;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 767px) {
+  .solBolum {
+      width: 350px;
+    }
+    .solBolum a{
+      font-size: 0.9rem;
+    }
+    .ustResim{
+      width: 130px;
+      height: 60px;
+    }
+  .carousel {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h4h5 {
+    padding: 0 3%;
+  }
+  .h4h4 {
+    padding: 0 3%;
+  }
+  .h1h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .carousel {
+    height: 270px;
+  }
+  .h4h5 {
+    padding-left: 3rem;
+    padding-right: 10rem;
+  }
+  .h4h4 {
+    padding-left: 10rem;
+    padding-right: 1rem;
+  }
+}

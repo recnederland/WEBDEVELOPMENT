@@ -1,0 +1,19 @@
+.navbar-brand{
+  font-size: 1.8rem;
+}
+img{
+  height: 270px;
+  width: 270px;
+  padding: 2px;
+}
+
+/* menunun yukarida sabit olmasi icin*/
+/*
+#header{
+  display: flex;
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background-color: white;
+}
+*/

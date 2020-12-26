@@ -1,0 +1,115 @@
+/*
+  tüm kutulara class title şeklinde elemetn açalımedia
+  elementin yazı boyutu 2rem olsun
+  ve yazıyı ortalayalım
+  renk kodu da beyaz olsun
+  10px padding
+  Basic Standart Premium
+*/
+.fiyat{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color:white;
+  padding: 10px;
+}
+.dolar{
+  margin-bottom:10px;
+}
+.bilgiler{
+  color: white;
+  font-size:1.2rem;
+}
+.title{
+  color: white;
+  font-size: 1.5rem;
+  padding : 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.ortak{
+  padding: 10px;
+  margin: 15px;
+  float: left;
+  /* koseleri yuvarlama*/
+  border-radius:25px;
+  /* bu kod sayesinde tum sekil asagida
+  belirlenen pixel boyutu (275px) sinirlarinda kalir
+  kod olmazsa ornegin yukaridaki padding 10px lide eklenir*/
+  box-sizing: border-box;
+}
+/*ortak elementler yukarida kalmali ki onlari asagida degistirebilelim  */
+.icon1{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%  );
+  border-radius: 50%;
+  font-size: 4rem;
+  color: white;
+  /*yaziiyi/icon ortaya alalim */
+  display: flex;
+  /*iconu ortalamak icin */
+  align-items: center;
+  justify-content: center;
+  /*
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  */
+  /*direk ortalar ancak elementin genisligi olmali */
+  margin: 0 auto;
+}
+.icon2{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%  );
+  border-radius: 50%;
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}.icon3{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #9455F6 0%, #F439DA 100%  );
+  border-radius: 50%;
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.kutu1{
+background: linear-gradient(135deg, #5FB4FE 0%, #3EFB85 100%);
+  width: 275px;
+  height: 400px;
+  margin-top: 35px;
+}
+/*
+     başlangıç : #5FB4FE
+     bitiş : #F439DA
+*/
+.kutu2{
+  width: 275px;
+  height: 440px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%);
+}
+/*
+     başlangıç : #FC20DA
+     bitiş : #FAEB7F
+*/
+.kutu3{
+  width: 275px;
+  height: 400px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%);
+  margin-top: 35px;
+}
+/*
+   başlangıç : ##9455F6
+   bitiş : #3EFB85
+*/

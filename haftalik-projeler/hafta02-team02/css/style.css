@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+​
+body {
+  background-color: #FAD961;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(resim/speaker.png);
+  background-size: 43%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+​
+.ust-kisim {
+  position: relative;
+  display: inline-block;
+}
+​
+.soltaraf , .sagtaraf{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 22px;
+}
+​
+.userresim {
+ width: 30px;
+}
+​
+.ortabanner {
+  margin-top: 10px;
+}
+​
+.banner1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.banner2 {
+  letter-spacing:0px;
+  font-variant: normal;
+  font-size: 45px;
+  font-weight: bolder;
+​
+}
+​
+.ara{
+  font-size: 30px;
+}
+​
+.rounded-pill {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:355px;
+  border:1.5px solid #1B1B1B;
+  border-radius: 100%;
+  }
+​
+.avro {
+  font-size: 20px;
+}
+​
+ .icon img{
+  width: 30px;
+  margin-left: 90px;
+  margin-right:10px;
+}
+.ucyuz-genislik{
+  width:430px;
+}
+.yazi-ust {
+  float: left;
+  margin-left: 20px;
+}
+​
+.baslik{
+  font-size:1.1rem;
+  font-weight: bold;
+}
+​
+.aciklama{
+  font-size: 0.8rem;
+  font-weight:normal !important;
+}
+​
+footer{
+  margin-top: 50px;
+}
+​
+.fa-copyright{
+  font-size: 13px;
+}

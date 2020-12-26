@@ -1,0 +1,84 @@
+:root {
+  --ana-renk : orange;
+  --baslik-boyut : 1.8rem;
+  --border-olcusu :  0.5rem;
+}
+body{
+  background-color: #f1faee;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 1)),
+                    url("https://resimdiyari.com/_data/i/upload/2012/10/11/20121011142538-0d933501-me.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-dark .navbar-brand {
+  /* var(--ana-renk) == orange */
+  color : var(--ana-renk) !important;
+  font-weight: bold;
+  font-size: var(--baslik-boyut);
+}
+
+/* boyle de kullanilabilirdi
+.navbar-dark .navbar-brand {
+  color : red !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+}*/
+.populer-baslik {
+  background-color: var(--ana-renk);
+  color: white;
+}
+.ekonomi{
+  border-left: 7px var(--ana-renk) solid;
+  padding: 0.8rem;
+  font-size:1.2rem;
+}
+/* var(--border-olcusu) == 0.5rem */
+.card {
+  border-radius: var(--border-olcusu);
+}
+.card-img-top{
+  border-top-left-radius: var(--border-olcusu);
+  border-top-right-radius: var(--border-olcusu);
+}
+.ipucu {
+    position: relative;
+    display: inline-block;
+    color: #28a745;
+    border-radius: 3px;
+}
+.ipucu .ipucuMetniSag {
+    visibility: hidden;
+    font-size: 12px;
+    width: 140px;
+    background-color: white;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 16px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 60px;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.ipucu:hover .ipucuMetniSag {
+    visibility: visible;
+    opacity: 1;
+    color: #28a745;
+}
+.ipucu .ipucuMetniSag::after {
+    content: " Goed!";
+    positBlock türündeki elemanları yanyana yerleştirebilmek için iki yöntem kullanabiliriz:
+
+Float özelliğini kullanabiliriz.
+Display: inline-block; css özelliği uygulayabiliriz.ion: relative;
+    top: 10%;
+    left: -10px;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent orange transparent transparent;
+}
