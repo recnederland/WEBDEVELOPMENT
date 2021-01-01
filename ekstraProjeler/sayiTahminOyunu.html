@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sayi Tahmin Oyunu</title>
+
+    <!-- index.html'e css klasörünün içindeki bootstrap.css dosyasını tanıtıyoruz -->
+       <link rel="stylesheet" href="css\bootstrap.css">
+
+    <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+       <link rel="stylesheet" href="css\styleChart.css">
+    <!-- JQuery Script -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <script type="text/javascript" language="javascript">
+    var sayi,tahmin,hak=1,i=0;;
+    sayi=Math.round(Math.random()*100);
+    do
+    {
+        tahmin=parseInt(prompt("Tahmini Giriniz: "));
+        if (tahmin<sayi)
+        {
+            document.write("Daha büyük bir sayı giriniz.<br>");
+        }
+        if (tahmin>sayi)
+        {
+            document.write("Daha küçük bir sayı giriniz.<br>");
+        }
+        if (tahmin==sayi)
+        {
+        document.write("Tebrikler bildiniz. Tuttuğum sayı: "+ sayi + "<br>");
+        document.write(hak + ". hakkınızda bildiniz.");
+        }
+    hak++;
+    }
+    while ((tahmin!=sayi) && hak<10)
+    if (hak>10)
+    {
+        document.write("Hakkınız kalmadı. Tutulan sayı : "+ sayi + "<br>");
+    }
+</script>
+  </body>
+</html>

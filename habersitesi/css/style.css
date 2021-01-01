@@ -9,6 +9,8 @@ body{
                     url("https://resimdiyari.com/_data/i/upload/2012/10/11/20121011142538-0d933501-me.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  flex-direction: column;
 }
 .navbar-dark .navbar-brand {
   /* var(--ana-renk) == orange */
@@ -30,7 +32,7 @@ body{
 .ekonomi{
   border-left: 7px var(--ana-renk) solid;
   padding: 0.8rem;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
 /* var(--border-olcusu) == 0.5rem */
 .card {
@@ -71,14 +73,73 @@ body{
 }
 .ipucu .ipucuMetniSag::after {
     content: " Goed!";
-    positBlock türündeki elemanları yanyana yerleştirebilmek için iki yöntem kullanabiliriz:
 
-Float özelliğini kullanabiliriz.
-Display: inline-block; css özelliği uygulayabiliriz.ion: relative;
+    display: inline-block;
+    position: relative;
     top: 10%;
     left: -10px;
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
     border-color: transparent orange transparent transparent;
+}
+
+/* dark- light modu */
+*{
+  box-sizing: border-box;
+}
+.cerceve{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  margin: 0;
+  transition: background 0.2s linear;
+
+}
+body.dark{
+  background-color: #292C35;
+}
+body.dark.p {
+  color: #fff;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+
+}
+
+
+.labelDl{
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+.ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .labelDl .ball {
+  transform: translate(24px);
+}
+
+.fa-moon{
+  color: #f1c40f;
+}
+.fa-sun{
+  color: #f39c12;
 }

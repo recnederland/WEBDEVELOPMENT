@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>For Priktijk</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css\style01.css">
+
+  <link rel="shortcut icon" type="image/png" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <style type="text/css">
+
+    body {
+      margin=0;
+      padding=0;
+    }
+
+    #kare {
+      float: right;
+      border: solid 1px #eeeeff;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      z-index: -4;
+    }
+  </style>
+
+  <script>
+    function gunYaz(x) {
+      switch (x) {
+        case 0:
+          document.write("Pazar");
+          break;
+        case 1:
+          document.write("Pazartesi");
+          break;
+        case 2:
+          document.write("Hoşgeldiniz,Bugun Günlerden Salı ...:)");
+          break;
+        case 3:
+          document.write("Çarşamba");
+          break;
+        case 4:
+          document.write("Perşembe");
+          break;
+        case 5:
+          document.write("Cuma");
+          break;
+        case 6:
+          document.write("Cumartesi");
+          break;
+        default:
+          document.write("Üzgünüz...");
+          break;
+      }
+    }
+
+    for (celsius = 0; celsius <= 50; celsius = celsius + 1) {
+      document.write("<tr><td>" + celsius + "</td><td>" +
+        ((celsius * 9 / 5) + 32) + "</td></tr>");
+
+    }
+  </script>
+</head>
+
+<body>
+
+  <table border="1" cellpadding="5" cellspacing="0">
+
+    <tr>
+      <td>CELSIUS</td>
+      <td>FAHRENHEIT</td>
+
+    </tr>
+  </table>
+
+
+
+
+
+
+  <script type="text/javascript">
+    for (tel = 1; tel <= 2000; tel++) {
+      document.write('<div id ="kare">&nbsp;</div>')
+    }
+
+
+
+    //
+    //date nesnesi ve fonksiyonu bize gun bilgisini sayı[0-6] olarak verir
+    var gun = new Date().getDay();
+    gunYaz(gun);
+
+    //
+  </script>
+</body>
+
+</html>

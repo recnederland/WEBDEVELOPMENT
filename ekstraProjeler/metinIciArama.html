@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Metin Ici Arama</title>
+
+        <!-- index.html'e css klasörünün içindeki bootstrap.css dosyasını tanıtıyoruz -->
+           <link rel="stylesheet" href="css\bootstrap.css">
+
+        <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+           <link rel="stylesheet" href="css\styleChart.css">
+        <!-- JQuery Script -->
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <p id="p1">Ahmet Cansever</p>
+
+<button onclick="Ara()">Bul</button>
+
+<p id="demo"></p>
+
+<script>
+function Ara() {
+    var metin = prompt("Istediginiz metni giriniz: ");
+    var arananIfade= prompt("Aradiginiz ifadeyi giriniz: ");
+    var metinIci = metin.value(arananIfade);
+    var str = document.getElementById("metin").innerHTML;
+    var konum = str.search("metinIci");
+    document.getElementById("metinIci").innerHTML = konum;
+}
+</script>
+  </body>
+</html>

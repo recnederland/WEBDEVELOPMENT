@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BackgraoundColorRandomChange</title>
+
+    <!-- index.html'e css klasörünün içindeki bootstrap.css dosyasını tanıtıyoruz -->
+      <link rel="stylesheet" href="css\bootstrap.css">
+
+    <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+      <link rel="stylesheet" href="css\styleChart.css">
+    <!-- JQuery Script -->
+
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js" charset="utf-8"></script>
+
+   </head>
+   <body>
+
+     <input type="button" id="renk" value="renk degistir">
+
+  <script>
+  var dizi=["#D24D57","#e74c3c","#f1c40f","#2c3e50","#8e44ad","#bdc3c7","#1abc9c","#3498db","#95a5a6"];
+  var renk=document.getElementById("renk");
+
+
+  renk.onclick=function(){
+
+  var rasgele=Math.floor(Math.random()*dizi.length);
+
+  document.body.style.backgroundColor=dizi[rasgele];
+
+  }
+    </script>
+   </body>
+ </html>

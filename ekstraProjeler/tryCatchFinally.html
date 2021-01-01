@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <title>Try Catch Finally Throuw</title>
+    <!-- index.html'e css klasörünün içindeki bootstrap.css dosyasını tanıtıyoruz -->
+        <link rel="stylesheet" href="css\bootstrap.css">
+
+    <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+        <link rel="stylesheet" href="css\styleChart.css">
+    <!-- JQuery Script -->
+
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>TC Kimlik</td>
+        <td><input type="text" id="tc"></td>
+        <td>
+          <div id="uyari"></div>
+        <td>
+      </tr>
+
+      <tr>
+        <td>Adı</td>
+        <td><input type="text" id="ad"></td>
+      </tr>
+
+      <tr>
+        <td>Soyadı</td>
+        <td><input type="text" id="soyad"></td>
+      </tr>
+
+    </table>
+
+    <script>
+      var nesne = document.getElementById("tc");
+      var uyari = document.getElementById("uyari");
+
+      nesne.onkeypress = function() {
+        uyari.textContent = "";
+      }
+
+      nesne.onblur = function() {
+
+        try {
+          if (isNaN(nesne.value)) throw "Hatalı karakter girdiniz.";
+          if (nesne.value.length < 11) throw "11 karakterden az girdiniz.";
+          if (nesne.value.length > 11) throw "11 karakterden fazla girdiniz.";
+        } catch (e) {
+          uyari.textContent = e;
+          nesne.focus();
+        }
+
+      }
+    </script>
+  </body>
+</html>

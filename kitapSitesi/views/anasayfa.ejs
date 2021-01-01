@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  </head>
+  <body class="">
+    <h1>Anasayfa</h1>
+    <p>1. kitap ismi :   <%= kitaplar[0].kitapismi %>     </p>
+    <p>1. kitap fiyatı : <%= kitaplar[0].fiyat %> </p>
+    <p>Ürün sayfasına gitmek için <a href="/kitap/<%= kitaplar[0].kitapismi %>/<%= kitaplar[0].index %>">tıklayınız</a>.</p>
+    <br />
+    <p>2. kitap ismi :   <%= kitaplar[1].kitapismi  %>     </p>
+    <p>2. kitap fiyatı : <%= kitaplar[1].fiyat %> </p>
+    <p>Ürün sayfasına gitmek için <a href="/kitap/<%= kitaplar[1].kitapismi %>/<%= kitaplar[1].index %>">tıklayınız</a>.</p>
+    <br />
+    <p>3. kitap ismi :   <%= kitaplar[2].kitapismi  %>     </p>
+    <p>3. kitap fiyatı : <%= kitaplar[2].fiyat %> </p>
+    <p>Ürün sayfasına gitmek için <a href="/kitap/<%= kitaplar[2].kitapismi %>/<%= kitaplar[2].index %>">tıklayınız</a>.</p>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Charts.js</title>
+
+     <!-- index.html'e css klasörünün içindeki bootstrap.css dosyasını tanıtıyoruz -->
+      <link rel="stylesheet" href="css\bootstrap.css">
+
+     <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+      <link rel="stylesheet" href="css\styleChart.css">
+     <!-- JQuery Script -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+     <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="js/bootstrap.js" charset="utf-8"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+  <body>
+
+    <canvas id="chart"></canvas>
+    <canvas id="chart2"></canvas>
+
+     <script>
+      var ctx = document.getElementById('chart').getContext('2d');
+      var chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Ocak', 'Subat', 'Mart', 'Nisan', 'Mayis', 'Haziran'],
+          datasets: [{
+            label: "Site X Istatistikleri",
+            backgroundColor: "#FF0000",
+            borderColor: "#000",
+            borderWidth: 1,
+            data:[40,5,10,20,35,25],
+            fill: false
+          },{
+            label: "Site Y Istatistikleri",
+            backgroundColor: "#FFFF00",
+            borderColor: "#9589F3 ",
+            borderWidth: 1,
+            data:[10,45,30,10,15,5],
+            fill: false
+          }
+
+        ],
+        }
+      })
+
+      var ctx = document.getElementById('chart2').getContext('2d');
+      var chart2 = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Ocak', 'Subat', 'Mart', 'Nisan', 'Mayis', 'Haziran'],
+          datasets: [{
+            data:[18,35,30,17,9,15],
+            borderColor: "#000",
+            label: "Site Z Istatistikleri",
+            borderWidth: 1,
+            backgroundColor: ["#FF0000", "#F3A589","#E59F4C ","#F6EC6C ","#90F66C ","#6CD0F6 "],
+          }
+          ],
+        }
+      })
+    </script>
+  </body>
+</html>
